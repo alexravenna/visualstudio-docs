@@ -33,8 +33,6 @@ For information about Docker Compose profiles, see [Using profiles with Compose]
 Consider the following Docker Compose project in which the *docker-compose.yml* has five services and three Compose profiles (web, web1 and web2).
 
 ```yml
-version: '3.9'
-
 services:
   webapplication1:
     image: ${DOCKER_REGISTRY-}webapplication1
